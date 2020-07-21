@@ -1,0 +1,31 @@
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\bin\Debug\ALIK PROJECT 2020.exe
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\bin\Debug\ALIK PROJECT 2020.pdb
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\bin\Debug\ALIK PROJECT 2020.xml
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.Form1.resources
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.Resources.resources
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\obj\x86\Debug\ALIK PROJECT 2020.vbproj.GenerateResource.Cache
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\obj\x86\Debug\ALIK PROJECT 2020.exe
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\obj\x86\Debug\ALIK PROJECT 2020.xml
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\obj\x86\Debug\ALIK PROJECT 2020.pdb
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.Breakfast_menu.resources
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.Payment.resources
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.lunch_dishes.resources
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.dishes_payment.resources
+C:\Users\user\AppData\Local\Temporary Projects\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.Drinks.resources
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK PROJECT 2020.exe
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK PROJECT 2020.xml
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK PROJECT 2020.pdb
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\bin\Debug\ALIK PROJECT 2020.exe
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\bin\Debug\ALIK PROJECT 2020.pdb
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\bin\Debug\ALIK PROJECT 2020.xml
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.Breakfast_menu.resources
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.dishes_payment.resources
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.Drinks.resources
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.Form1.resources
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.lunch_dishes.resources
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.Resources.resources
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.Payment.resources
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK PROJECT 2020.vbproj.GenerateResource.Cache
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.Drinks_payment.resources
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.index_page.resources
+C:\Users\user\documents\visual studio 2010\Projects\ALIK PROJECT 2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.Omega.resources

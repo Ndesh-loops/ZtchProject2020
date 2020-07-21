@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{98FE90F9-2238-4505-ACBD-799465BC692C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ALIK_PROJECT_2020.My.MyApplication</StartupObject>
+    <RootNamespace>ALIK_PROJECT_2020</RootNamespace>
+    <AssemblyName>ALIK PROJECT 2020</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ALIK PROJECT 2020.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ALIK PROJECT 2020.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Breakfast menu.Designer.vb">
+      <DependentUpon>Breakfast menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Breakfast menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dishes payment.Designer.vb">
+      <DependentUpon>dishes payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dishes payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drinks payment.Designer.vb">
+      <DependentUpon>Drinks payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drinks payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drinks.Designer.vb">
+      <DependentUpon>Drinks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drinks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="index page.Designer.vb">
+      <DependentUpon>index page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="index page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lunch dishes.Designer.vb">
+      <DependentUpon>lunch dishes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lunch dishes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Omega.Designer.vb">
+      <DependentUpon>Omega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Omega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pancakes pay.Designer.vb">
+      <DependentUpon>Pancakes pay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pancakes pay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Breakfast menu.resx">
+      <DependentUpon>Breakfast menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dishes payment.resx">
+      <DependentUpon>dishes payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drinks payment.resx">
+      <DependentUpon>Drinks payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drinks.resx">
+      <DependentUpon>Drinks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index page.resx">
+      <DependentUpon>index page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lunch dishes.resx">
+      <DependentUpon>lunch dishes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Omega.resx">
+      <DependentUpon>Omega.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pancakes pay.resx">
+      <DependentUpon>Pancakes pay.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\enjyng brksfst.webp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restrnt.grnd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restaurant.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enjying soda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\driks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lunch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enjyng lunch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\githeri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pilau.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mukimo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ugali.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enjoying brkfst.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapati.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mahamri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pancakes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Qoute.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Goodbye logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Welcome pic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insd rsttrnt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insde resrrnt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m-pesa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slipa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mlipa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lipa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chips.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\htl staff.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chef.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel stf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waiter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wtrs.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
