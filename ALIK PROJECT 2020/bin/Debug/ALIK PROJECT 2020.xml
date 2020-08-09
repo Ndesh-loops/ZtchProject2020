@@ -2,158 +2,204 @@
 <doc>
 <assembly>
 <name>
-ALIKPROJECT2020
+ALIK PROJECT 2020
 </name>
 </assembly>
 <members>
+<member name="T:ALIK_PROJECT_2020.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
 <member name="P:ALIK_PROJECT_2020.My.Resources.Resources.ResourceManager">
-	<summary>
+<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.Culture">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.Culture">
+<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.cash">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.cart_project">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.chapati">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.cash">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.chef">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.chapati">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.chips">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.chef">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.driks">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.chips">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.drinks">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.clock">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.enjoying_brkfst">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.driks">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.enjying_soda">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.drinks">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.enjyng_brksfst">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.enjoying_brkfst">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.enjying_soda">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.enjyng_brksfst">
+<summary>
   Looks up a localized resource of type System.Byte[].
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.enjyng_lunch">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.enjyng_lunch">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.githeri">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.githeri">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.Goodbye_logo">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.Goodbye_logo">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.hotel_logo">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.hotel_logo">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.hotel_stf">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.hotel_stf">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.htl_staff">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.htl_staff">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.insd_rsttrnt">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.insd_rsttrnt">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.insde_resrrnt">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.insde_resrrnt">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.lipa">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.lipa">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.lunch">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.lunch">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.m_pesa">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.m_pesa">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.mahamri">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.mahamri">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.mlipa">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.mlipa">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.mukimo">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.mukimo">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.pancakes">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.pancakes">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.pilau">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.pilau">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.Qoute">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.Qoute">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.Restaurant">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.Restaurant">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.restrnt_grnd">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.restrnt_grnd">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.slipa">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.slipa">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.soda">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.soda">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.ugali">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.ugali">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.waiter">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.waiter">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.Welcome_pic">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.Welcome_pic">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:ALIK_PROJECT_2020.My.Resources.Resources.wtrs">
-	<summary>
+</member>
+<member name="P:ALIK_PROJECT_2020.My.Resources.Resources.wtrs">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="T:ALIK_PROJECT_2020.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
 </member>
 </members>

@@ -72,10 +72,22 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Breakfast menu.Designer.vb">
-      <DependentUpon>Breakfast menu.vb</DependentUpon>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
     </Compile>
-    <Compile Include="Breakfast menu.vb">
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Complaint.Designer.vb">
+      <DependentUpon>Complaint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Complaint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Complement.Designer.vb">
+      <DependentUpon>Complement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Complement.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="dishes payment.Designer.vb">
@@ -136,16 +148,40 @@
     <Compile Include="Omega.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Other Feedback.Designer.vb">
+      <DependentUpon>Other Feedback.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Other Feedback.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Pancakes pay.Designer.vb">
       <DependentUpon>Pancakes pay.vb</DependentUpon>
     </Compile>
     <Compile Include="Pancakes pay.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Pick Table.Designer.vb">
+      <DependentUpon>Pick Table.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pick Table.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test.Designer.vb">
+      <DependentUpon>test.vb</DependentUpon>
+    </Compile>
+    <Compile Include="test.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Breakfast menu.resx">
-      <DependentUpon>Breakfast menu.vb</DependentUpon>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complaint.resx">
+      <DependentUpon>Complaint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complement.resx">
+      <DependentUpon>Complement.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dishes payment.resx">
       <DependentUpon>dishes payment.vb</DependentUpon>
@@ -174,8 +210,17 @@
     <EmbeddedResource Include="Omega.resx">
       <DependentUpon>Omega.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Other Feedback.resx">
+      <DependentUpon>Other Feedback.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pancakes pay.resx">
       <DependentUpon>Pancakes pay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pick Table.resx">
+      <DependentUpon>Pick Table.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -288,6 +333,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wtrs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart.project.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
