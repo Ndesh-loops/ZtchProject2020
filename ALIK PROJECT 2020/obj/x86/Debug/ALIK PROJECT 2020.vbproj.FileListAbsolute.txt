@@ -77,3 +77,20 @@ C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK P
 C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK PROJECT 2020.exe
 C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK PROJECT 2020.xml
 C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK PROJECT 2020.pdb
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\ALIK PROJECT 2020.exe.config
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\MySql.Data.dll
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\Google.Protobuf.dll
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\Zstandard.Net.dll
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\Renci.SshNet.dll
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\System.Buffers.dll
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\System.Memory.dll
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\bin\Debug\MySql.Data.xml
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK PROJECT 2020.exe.config
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK PROJECT 2020.vbproj.CopyComplete
+C:\Users\Springs\OneDrive\ZtchProject2020\ALIK PROJECT 2020\obj\x86\Debug\ALIK_PROJECT_2020.Pay.resources

@@ -24,18 +24,11 @@ Partial Class index_page
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OpenMenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -45,6 +38,7 @@ Partial Class index_page
         Me.FoodToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.DrinkToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CalculateChargesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PaymentToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CashToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MPesaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -75,21 +69,69 @@ Partial Class index_page
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.CalculateChargesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label19 = New System.Windows.Forms.Label()
-        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.Panel1.SuspendLayout()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.CategoryTextBox = New System.Windows.Forms.TextBox()
+        Me.CategoryComboBox = New System.Windows.Forms.ComboBox()
+        Me.TypeComboBox = New System.Windows.Forms.ComboBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.DishesListView = New System.Windows.Forms.ListView()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.DataGridView3 = New System.Windows.Forms.DataGridView()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.GrandTextBox = New System.Windows.Forms.TextBox()
+        Me.SubTotalTextBox = New System.Windows.Forms.TextBox()
+        Me.VATTextBox = New System.Windows.Forms.TextBox()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.CartDataGridView = New System.Windows.Forms.DataGridView()
+        Me.ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DelicacyName = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Price = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Quantity = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Subtottal = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.GranTotalTextBox = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.Mpesa = New System.Windows.Forms.Label()
+        Me.OrdersListView = New System.Windows.Forms.ListView()
         Me.ToolStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabControl1.SuspendLayout()
+        Me.TabPage1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
+        CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage4.SuspendLayout()
+        CType(Me.CartDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage5.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
@@ -111,108 +153,6 @@ Partial Class index_page
         Me.MonthCalendar1.Name = "MonthCalendar1"
         Me.MonthCalendar1.TabIndex = 12
         '
-        'ListBox1
-        '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(652, 394)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(176, 160)
-        Me.ListBox1.TabIndex = 13
-        '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.CheckedListBox1)
-        Me.Panel1.Location = New System.Drawing.Point(24, 350)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(600, 204)
-        Me.Panel1.TabIndex = 32
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(279, 13)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(44, 20)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Price"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(36, 13)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(68, 20)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Delicacy"
-        '
-        'CheckedListBox1
-        '
-        Me.CheckedListBox1.FormattingEnabled = True
-        Me.CheckedListBox1.Items.AddRange(New Object() {"Ugali and fish Stew                                                   Kshs.500", "Githeri and Greens                                                    Kshs.300", "Pilau and Chicken                                                     Kshs.450", "Chips and 1/4 Chicken                                             Kshs.270", "Mukimo and Beef stew                                             Kshs.500", "Coca cola                                                                   Kshs." &
-                "50", "Del Monte Mango Juice                                           Kshs.100"})
-        Me.CheckedListBox1.Location = New System.Drawing.Point(12, 37)
-        Me.CheckedListBox1.Name = "CheckedListBox1"
-        Me.CheckedListBox1.Size = New System.Drawing.Size(572, 124)
-        Me.CheckedListBox1.TabIndex = 0
-        '
-        'Button2
-        '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(533, 594)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(101, 23)
-        Me.Button2.TabIndex = 33
-        Me.Button2.Text = "Ad&d to Cart"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(664, 357)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(45, 16)
-        Me.Label3.TabIndex = 34
-        Me.Label3.Text = "CART"
-        '
-        'Button3
-        '
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(517, 649)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(129, 23)
-        Me.Button3.TabIndex = 35
-        Me.Button3.Text = "R&emove from cart"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(701, 594)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(137, 23)
-        Me.Button4.TabIndex = 37
-        Me.Button4.Text = "C&alculate charges"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(715, 649)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 38
-        Me.Button5.Text = "SEN&D"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
@@ -233,6 +173,30 @@ Partial Class index_page
         Me.ToolStrip1.Size = New System.Drawing.Size(1236, 25)
         Me.ToolStrip1.TabIndex = 55
         Me.ToolStrip1.Text = "ToolStrip1"
+        '
+        'ToolStripButton1
+        '
+        Me.ToolStripButton1.Image = Global.ALIK_PROJECT_2020.My.Resources.Resources.chips
+        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton1.Name = "ToolStripButton1"
+        Me.ToolStripButton1.Size = New System.Drawing.Size(100, 22)
+        Me.ToolStripButton1.Text = "M&ost Ordered"
+        '
+        'ToolStripButton2
+        '
+        Me.ToolStripButton2.Image = Global.ALIK_PROJECT_2020.My.Resources.Resources.githeri
+        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton2.Name = "ToolStripButton2"
+        Me.ToolStripButton2.Size = New System.Drawing.Size(61, 22)
+        Me.ToolStripButton2.Text = "Dish&es"
+        '
+        'ToolStripButton3
+        '
+        Me.ToolStripButton3.Image = Global.ALIK_PROJECT_2020.My.Resources.Resources.driks
+        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton3.Name = "ToolStripButton3"
+        Me.ToolStripButton3.Size = New System.Drawing.Size(60, 22)
+        Me.ToolStripButton3.Text = "Dr&inks"
         '
         'MenuStrip1
         '
@@ -294,6 +258,12 @@ Partial Class index_page
         Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
         Me.AboutToolStripMenuItem.Text = "Ab&out "
         '
+        'CalculateChargesToolStripMenuItem
+        '
+        Me.CalculateChargesToolStripMenuItem.Name = "CalculateChargesToolStripMenuItem"
+        Me.CalculateChargesToolStripMenuItem.Size = New System.Drawing.Size(114, 20)
+        Me.CalculateChargesToolStripMenuItem.Text = "C&alculate Charges"
+        '
         'PaymentToolStripMenuItem
         '
         Me.PaymentToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CashToolStripMenuItem, Me.MPesaToolStripMenuItem})
@@ -323,19 +293,19 @@ Partial Class index_page
         'ComplaintToolStripMenuItem
         '
         Me.ComplaintToolStripMenuItem.Name = "ComplaintToolStripMenuItem"
-        Me.ComplaintToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ComplaintToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
         Me.ComplaintToolStripMenuItem.Text = "Complaint"
         '
         'ComplementToolStripMenuItem
         '
         Me.ComplementToolStripMenuItem.Name = "ComplementToolStripMenuItem"
-        Me.ComplementToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ComplementToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
         Me.ComplementToolStripMenuItem.Text = "Complement"
         '
         'OtherToolStripMenuItem1
         '
         Me.OtherToolStripMenuItem1.Name = "OtherToolStripMenuItem1"
-        Me.OtherToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.OtherToolStripMenuItem1.Size = New System.Drawing.Size(144, 22)
         Me.OtherToolStripMenuItem1.Text = "Other"
         '
         'ContactUsToolStripMenuItem
@@ -367,25 +337,25 @@ Partial Class index_page
         'HowToOrderToolStripMenuItem
         '
         Me.HowToOrderToolStripMenuItem.Name = "HowToOrderToolStripMenuItem"
-        Me.HowToOrderToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.HowToOrderToolStripMenuItem.Size = New System.Drawing.Size(176, 22)
         Me.HowToOrderToolStripMenuItem.Text = "How to Order"
         '
         'HowToPayToolStripMenuItem
         '
         Me.HowToPayToolStripMenuItem.Name = "HowToPayToolStripMenuItem"
-        Me.HowToPayToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.HowToPayToolStripMenuItem.Size = New System.Drawing.Size(176, 22)
         Me.HowToPayToolStripMenuItem.Text = "How to Pay"
         '
         'HowToPickATableToolStripMenuItem
         '
         Me.HowToPickATableToolStripMenuItem.Name = "HowToPickATableToolStripMenuItem"
-        Me.HowToPickATableToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.HowToPickATableToolStripMenuItem.Size = New System.Drawing.Size(176, 22)
         Me.HowToPickATableToolStripMenuItem.Text = "How to Pick a table"
         '
         'OtherToolStripMenuItem2
         '
         Me.OtherToolStripMenuItem2.Name = "OtherToolStripMenuItem2"
-        Me.OtherToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
+        Me.OtherToolStripMenuItem2.Size = New System.Drawing.Size(176, 22)
         Me.OtherToolStripMenuItem2.Text = "Other"
         '
         'Panel2
@@ -578,12 +548,6 @@ Partial Class index_page
         Me.Label5.TabIndex = 55
         Me.Label5.Text = "M&onday"
         '
-        'CalculateChargesToolStripMenuItem
-        '
-        Me.CalculateChargesToolStripMenuItem.Name = "CalculateChargesToolStripMenuItem"
-        Me.CalculateChargesToolStripMenuItem.Size = New System.Drawing.Size(114, 20)
-        Me.CalculateChargesToolStripMenuItem.Text = "C&alculate Charges"
-        '
         'Label19
         '
         Me.Label19.AutoSize = True
@@ -596,30 +560,6 @@ Partial Class index_page
         Me.Label19.TabIndex = 58
         Me.Label19.Text = "Here are more choices for you"
         '
-        'ToolStripButton1
-        '
-        Me.ToolStripButton1.Image = Global.ALIK_PROJECT_2020.My.Resources.Resources.chips
-        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(100, 22)
-        Me.ToolStripButton1.Text = "M&ost Ordered"
-        '
-        'ToolStripButton2
-        '
-        Me.ToolStripButton2.Image = Global.ALIK_PROJECT_2020.My.Resources.Resources.githeri
-        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(61, 22)
-        Me.ToolStripButton2.Text = "Dish&es"
-        '
-        'ToolStripButton3
-        '
-        Me.ToolStripButton3.Image = Global.ALIK_PROJECT_2020.My.Resources.Resources.driks
-        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton3.Name = "ToolStripButton3"
-        Me.ToolStripButton3.Size = New System.Drawing.Size(60, 22)
-        Me.ToolStripButton3.Text = "Dr&inks"
-        '
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.ALIK_PROJECT_2020.My.Resources.Resources.clock
@@ -629,16 +569,6 @@ Partial Class index_page
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 46
         Me.PictureBox2.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.ALIK_PROJECT_2020.My.Resources.Resources.cart_project
-        Me.PictureBox1.Location = New System.Drawing.Point(715, 338)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(100, 50)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 36
-        Me.PictureBox1.TabStop = False
         '
         'PictureBox7
         '
@@ -650,26 +580,473 @@ Partial Class index_page
         Me.PictureBox7.TabIndex = 6
         Me.PictureBox7.TabStop = False
         '
+        'TabControl1
+        '
+        Me.TabControl1.Controls.Add(Me.TabPage1)
+        Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Controls.Add(Me.TabPage4)
+        Me.TabControl1.Controls.Add(Me.TabPage5)
+        Me.TabControl1.Location = New System.Drawing.Point(24, 385)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(844, 304)
+        Me.TabControl1.TabIndex = 59
+        '
+        'TabPage1
+        '
+        Me.TabPage1.Controls.Add(Me.Label24)
+        Me.TabPage1.Controls.Add(Me.Label23)
+        Me.TabPage1.Controls.Add(Me.Label22)
+        Me.TabPage1.Controls.Add(Me.CategoryTextBox)
+        Me.TabPage1.Controls.Add(Me.CategoryComboBox)
+        Me.TabPage1.Controls.Add(Me.TypeComboBox)
+        Me.TabPage1.Controls.Add(Me.Label21)
+        Me.TabPage1.Controls.Add(Me.Button4)
+        Me.TabPage1.Controls.Add(Me.Button3)
+        Me.TabPage1.Controls.Add(Me.DishesListView)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(836, 278)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "Home "
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Location = New System.Drawing.Point(517, 44)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(63, 16)
+        Me.Label24.TabIndex = 9
+        Me.Label24.Text = "C&ategory"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(316, 42)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(39, 16)
+        Me.Label23.TabIndex = 8
+        Me.Label23.Text = "Pr&ice"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(104, 42)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(40, 16)
+        Me.Label22.TabIndex = 7
+        Me.Label22.Text = "T&ype"
+        '
+        'CategoryTextBox
+        '
+        Me.CategoryTextBox.Location = New System.Drawing.Point(361, 40)
+        Me.CategoryTextBox.Name = "CategoryTextBox"
+        Me.CategoryTextBox.Size = New System.Drawing.Size(138, 20)
+        Me.CategoryTextBox.TabIndex = 6
+        '
+        'CategoryComboBox
+        '
+        Me.CategoryComboBox.FormattingEnabled = True
+        Me.CategoryComboBox.Location = New System.Drawing.Point(595, 40)
+        Me.CategoryComboBox.Name = "CategoryComboBox"
+        Me.CategoryComboBox.Size = New System.Drawing.Size(121, 21)
+        Me.CategoryComboBox.TabIndex = 5
+        '
+        'TypeComboBox
+        '
+        Me.TypeComboBox.FormattingEnabled = True
+        Me.TypeComboBox.Items.AddRange(New Object() {"Food", "Drink"})
+        Me.TypeComboBox.Location = New System.Drawing.Point(163, 37)
+        Me.TypeComboBox.Name = "TypeComboBox"
+        Me.TypeComboBox.Size = New System.Drawing.Size(121, 21)
+        Me.TypeComboBox.TabIndex = 4
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(6, 37)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(64, 20)
+        Me.Label21.TabIndex = 3
+        Me.Label21.Text = "F&ilter by"
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(744, 40)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.TabIndex = 2
+        Me.Button4.Text = "Se&arch"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(336, 238)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(148, 34)
+        Me.Button3.TabIndex = 1
+        Me.Button3.Text = "Ad&d to cart"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'DishesListView
+        '
+        Me.DishesListView.HideSelection = False
+        Me.DishesListView.Location = New System.Drawing.Point(6, 78)
+        Me.DishesListView.Name = "DishesListView"
+        Me.DishesListView.Size = New System.Drawing.Size(804, 154)
+        Me.DishesListView.TabIndex = 0
+        Me.DishesListView.UseCompatibleStateImageBehavior = False
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.OrdersListView)
+        Me.TabPage2.Controls.Add(Me.Mpesa)
+        Me.TabPage2.Controls.Add(Me.ComboBox2)
+        Me.TabPage2.Controls.Add(Me.GranTotalTextBox)
+        Me.TabPage2.Controls.Add(Me.TextBox4)
+        Me.TabPage2.Controls.Add(Me.TextBox5)
+        Me.TabPage2.Controls.Add(Me.Label27)
+        Me.TabPage2.Controls.Add(Me.Label28)
+        Me.TabPage2.Controls.Add(Me.Label29)
+        Me.TabPage2.Controls.Add(Me.Button6)
+        Me.TabPage2.Controls.Add(Me.Label1)
+        Me.TabPage2.Controls.Add(Me.TextBox1)
+        Me.TabPage2.Controls.Add(Me.Button2)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(836, 278)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "My orders"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(21, 14)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(60, 20)
+        Me.Label1.TabIndex = 63
+        Me.Label1.Text = "Search"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(113, 13)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 62
+        '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(255, 11)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(105, 23)
+        Me.Button2.TabIndex = 61
+        Me.Button2.Text = "Enter"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'TabPage3
+        '
+        Me.TabPage3.Controls.Add(Me.DataGridView3)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Size = New System.Drawing.Size(836, 278)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "My Payment"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'DataGridView3
+        '
+        Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView3.Location = New System.Drawing.Point(12, 12)
+        Me.DataGridView3.Name = "DataGridView3"
+        Me.DataGridView3.Size = New System.Drawing.Size(774, 236)
+        Me.DataGridView3.TabIndex = 0
+        '
+        'TabPage4
+        '
+        Me.TabPage4.Controls.Add(Me.GrandTextBox)
+        Me.TabPage4.Controls.Add(Me.SubTotalTextBox)
+        Me.TabPage4.Controls.Add(Me.VATTextBox)
+        Me.TabPage4.Controls.Add(Me.Label26)
+        Me.TabPage4.Controls.Add(Me.Label25)
+        Me.TabPage4.Controls.Add(Me.Label3)
+        Me.TabPage4.Controls.Add(Me.Button5)
+        Me.TabPage4.Controls.Add(Me.CartDataGridView)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Size = New System.Drawing.Size(836, 278)
+        Me.TabPage4.TabIndex = 3
+        Me.TabPage4.Text = "My Cart"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'GrandTextBox
+        '
+        Me.GrandTextBox.Location = New System.Drawing.Point(706, 144)
+        Me.GrandTextBox.Name = "GrandTextBox"
+        Me.GrandTextBox.ReadOnly = True
+        Me.GrandTextBox.Size = New System.Drawing.Size(115, 20)
+        Me.GrandTextBox.TabIndex = 7
+        '
+        'SubTotalTextBox
+        '
+        Me.SubTotalTextBox.Location = New System.Drawing.Point(706, 42)
+        Me.SubTotalTextBox.Name = "SubTotalTextBox"
+        Me.SubTotalTextBox.ReadOnly = True
+        Me.SubTotalTextBox.Size = New System.Drawing.Size(115, 20)
+        Me.SubTotalTextBox.TabIndex = 6
+        '
+        'VATTextBox
+        '
+        Me.VATTextBox.Location = New System.Drawing.Point(706, 90)
+        Me.VATTextBox.Name = "VATTextBox"
+        Me.VATTextBox.ReadOnly = True
+        Me.VATTextBox.Size = New System.Drawing.Size(115, 20)
+        Me.VATTextBox.TabIndex = 5
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(577, 142)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(93, 20)
+        Me.Label26.TabIndex = 4
+        Me.Label26.Text = "Gr&and Total"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(593, 40)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(77, 20)
+        Me.Label25.TabIndex = 3
+        Me.Label25.Text = "Su&b Total"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(622, 88)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(48, 20)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "V.A.T"
+        '
+        'Button5
+        '
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Location = New System.Drawing.Point(649, 236)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(163, 23)
+        Me.Button5.TabIndex = 1
+        Me.Button5.Text = "Place Order"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'CartDataGridView
+        '
+        Me.CartDataGridView.AllowUserToAddRows = False
+        Me.CartDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.CartDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ID, Me.DelicacyName, Me.Price, Me.Quantity, Me.Subtottal})
+        Me.CartDataGridView.Location = New System.Drawing.Point(20, 25)
+        Me.CartDataGridView.Name = "CartDataGridView"
+        Me.CartDataGridView.Size = New System.Drawing.Size(516, 234)
+        Me.CartDataGridView.TabIndex = 0
+        '
+        'ID
+        '
+        Me.ID.HeaderText = "ID"
+        Me.ID.Name = "ID"
+        Me.ID.ReadOnly = True
+        '
+        'DelicacyName
+        '
+        Me.DelicacyName.HeaderText = "Name"
+        Me.DelicacyName.Name = "DelicacyName"
+        Me.DelicacyName.ReadOnly = True
+        '
+        'Price
+        '
+        Me.Price.HeaderText = "Price(Kshs)"
+        Me.Price.Name = "Price"
+        Me.Price.ReadOnly = True
+        '
+        'Quantity
+        '
+        Me.Quantity.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.Quantity.HeaderText = "Quantity"
+        Me.Quantity.Name = "Quantity"
+        Me.Quantity.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Quantity.Width = 71
+        '
+        'Subtottal
+        '
+        Me.Subtottal.HeaderText = "SubTotal"
+        Me.Subtottal.Name = "Subtottal"
+        Me.Subtottal.ReadOnly = True
+        '
+        'TabPage5
+        '
+        Me.TabPage5.Controls.Add(Me.ComboBox1)
+        Me.TabPage5.Controls.Add(Me.Label20)
+        Me.TabPage5.Controls.Add(Me.TextBox2)
+        Me.TabPage5.Controls.Add(Me.Label2)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Size = New System.Drawing.Size(836, 278)
+        Me.TabPage5.TabIndex = 4
+        Me.TabPage5.Text = "My Account"
+        Me.TabPage5.UseVisualStyleBackColor = True
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"1", "2", "3", "4", "5"})
+        Me.ComboBox1.Location = New System.Drawing.Point(159, 76)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.TabIndex = 6
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(19, 79)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(108, 20)
+        Me.Label20.TabIndex = 5
+        Me.Label20.Text = "Table Number"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(489, 77)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(232, 20)
+        Me.TextBox2.TabIndex = 2
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(420, 79)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(51, 20)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Name"
+        '
+        'GranTotalTextBox
+        '
+        Me.GranTotalTextBox.Location = New System.Drawing.Point(645, 129)
+        Me.GranTotalTextBox.Name = "GranTotalTextBox"
+        Me.GranTotalTextBox.Size = New System.Drawing.Size(142, 20)
+        Me.GranTotalTextBox.TabIndex = 71
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(645, 27)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(142, 20)
+        Me.TextBox4.TabIndex = 70
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(645, 84)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(142, 20)
+        Me.TextBox5.TabIndex = 69
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(492, 136)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(93, 20)
+        Me.Label27.TabIndex = 68
+        Me.Label27.Text = "Gr&and Total"
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(508, 27)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(77, 20)
+        Me.Label28.TabIndex = 67
+        Me.Label28.Text = "Su&b Total"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Location = New System.Drawing.Point(532, 90)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(48, 20)
+        Me.Label29.TabIndex = 66
+        Me.Label29.Text = "V.A.T"
+        '
+        'Button6
+        '
+        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.Location = New System.Drawing.Point(624, 233)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(163, 26)
+        Me.Button6.TabIndex = 65
+        Me.Button6.Text = "Place Order"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Location = New System.Drawing.Point(645, 179)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(142, 21)
+        Me.ComboBox2.TabIndex = 72
+        '
+        'Mpesa
+        '
+        Me.Mpesa.AutoSize = True
+        Me.Mpesa.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Mpesa.Location = New System.Drawing.Point(455, 177)
+        Me.Mpesa.Name = "Mpesa"
+        Me.Mpesa.Size = New System.Drawing.Size(130, 20)
+        Me.Mpesa.TabIndex = 73
+        Me.Mpesa.Text = "Pay&ment Options"
+        '
+        'OrdersListView
+        '
+        Me.OrdersListView.HideSelection = False
+        Me.OrdersListView.Location = New System.Drawing.Point(19, 57)
+        Me.OrdersListView.Name = "OrdersListView"
+        Me.OrdersListView.Size = New System.Drawing.Size(372, 192)
+        Me.OrdersListView.TabIndex = 74
+        Me.OrdersListView.UseCompatibleStateImageBehavior = False
+        '
         'index_page
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(1236, 701)
+        Me.ClientSize = New System.Drawing.Size(1236, 749)
+        Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.MonthCalendar1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox7)
@@ -678,8 +1055,6 @@ Partial Class index_page
         Me.Name = "index_page"
         Me.Text = "index_page"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
         Me.MenuStrip1.ResumeLayout(False)
@@ -687,8 +1062,19 @@ Partial Class index_page
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabControl1.ResumeLayout(False)
+        Me.TabPage1.ResumeLayout(False)
+        Me.TabPage1.PerformLayout()
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
+        Me.TabPage3.ResumeLayout(False)
+        CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage4.ResumeLayout(False)
+        Me.TabPage4.PerformLayout()
+        CType(Me.CartDataGridView, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage5.ResumeLayout(False)
+        Me.TabPage5.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -696,17 +1082,6 @@ Partial Class index_page
     Friend WithEvents PictureBox7 As System.Windows.Forms.PictureBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents MonthCalendar1 As MonthCalendar
-    Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents CheckedListBox1 As CheckedListBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Button3 As Button
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents ToolStrip1 As ToolStrip
@@ -754,4 +1129,51 @@ Partial Class index_page
     Friend WithEvents Label5 As Label
     Friend WithEvents CalculateChargesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label19 As Label
+    Friend WithEvents TabControl1 As TabControl
+    Friend WithEvents TabPage1 As TabPage
+    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents Label1 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button2 As Button
+    Friend WithEvents TabPage3 As TabPage
+    Friend WithEvents DataGridView3 As DataGridView
+    Friend WithEvents TabPage4 As TabPage
+    Friend WithEvents CartDataGridView As DataGridView
+    Friend WithEvents TabPage5 As TabPage
+    Friend WithEvents Label20 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Button3 As Button
+    Friend WithEvents DishesListView As ListView
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents CategoryTextBox As TextBox
+    Friend WithEvents CategoryComboBox As ComboBox
+    Friend WithEvents TypeComboBox As ComboBox
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Button4 As Button
+    Friend WithEvents GrandTextBox As TextBox
+    Friend WithEvents SubTotalTextBox As TextBox
+    Friend WithEvents VATTextBox As TextBox
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Button5 As Button
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents ID As DataGridViewTextBoxColumn
+    Friend WithEvents DelicacyName As DataGridViewTextBoxColumn
+    Friend WithEvents Price As DataGridViewTextBoxColumn
+    Friend WithEvents Quantity As DataGridViewTextBoxColumn
+    Friend WithEvents Subtottal As DataGridViewTextBoxColumn
+    Friend WithEvents GranTotalTextBox As TextBox
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Label29 As Label
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Mpesa As Label
+    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents OrdersListView As ListView
 End Class
